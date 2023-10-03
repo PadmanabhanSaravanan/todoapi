@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  mysql:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-10-03T11:19:15.9369039+05:30"
+    description: A Helm chart for mysql database
+    digest: 3060f7be74daa4cb59ab77dd6f47c91eb495c814e634e212228772d7b1499fd0
+    name: mysql
+    type: application
+    urls:
+    - mysql-0.1.0.tgz
+    version: 0.1.0
+  todo-api:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-10-03T11:19:15.9374406+05:30"
+    dependencies:
+    - condition: database.enabled
+      name: mysql
+      repository: https://padmanabhansaravanan.github.io/todoapi/Helm/TodoApi_MySQL/mysql/charts
+      version: 0.1.0
+    description: A Helm chart for deploy todo application
+    digest: 8df45fd1508a0c93a7041df2978f9f79af9fc83824522eb1b169aea35392e4b9
+    name: todo-api
+    type: application
+    urls:
+    - todo-api-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-10-03T11:19:15.9362958+05:30"
