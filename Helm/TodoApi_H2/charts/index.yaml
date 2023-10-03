@@ -3,12 +3,12 @@ entries:
   todo-api-h2:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-10-03T10:49:21.4743433+05:30"
+    created: "2023-10-03T11:01:24.3931861+05:30"
     description: A Helm chart for deploy todo application
-    digest: 7bc537507057ecbc42c259592e81f30acf6c7059702184377d8808f76b804ddc
+    digest: 0cefc79df926a59564d28138ae40a4098d6b929b3a4159b966eb54d85f923f49
     name: todo-api-h2
     type: application
     urls:
     - todo-api-h2-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-03T10:49:21.4732294+05:30"
+generated: "2023-10-03T11:01:24.3926322+05:30"
