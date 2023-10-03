@@ -17,3 +17,6 @@ spec:
         image: {{ .Values.image.repository }}
         ports:
         - containerPort: {{ .Values.service.targetPort }}
+        env:
+        - name: USE_GLOBAL_CONFIG
+        value: {{ .Values.global.useGlobalConfig | default "false" | quote }}
